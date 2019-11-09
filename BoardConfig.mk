@@ -60,7 +60,7 @@ TARGET_RECOVERY_INITRC := $(DEVICE_FOLDER)/recovery/root/init.rc
 TARGET_RECOVERY_FSTAB := $(DEVICE_FOLDER)/recovery/root/etc/recovery.fstab
 
 # system.prop
-TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(DEVICE_FOLDER)/system.prop
 
 # Partitions informations
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
