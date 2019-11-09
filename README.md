@@ -20,3 +20,11 @@
 ## Device
 
 ![Infinix Zero 4](https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-4-2.jpg)
+
+## Build Instructions
+```sh
+export ALLOW_MISSING_DEPENDENCIES=true
+. build/envsetup.sh
+lunch omni_X555-eng
+mka recoveryimage
+```
